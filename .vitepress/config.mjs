@@ -1,11 +1,14 @@
 import { readdirSync } from 'fs';
 import { defineConfig } from 'vitepress'
 const foldersToRead = {
+  usage: [
+    'index',
+    'networks',
+    'running',
+  ],
   system: [
     'index',
-    'getting_started',
-    'usage',
-    'advanced'
+    'getting_started'
   ]
 };
 
