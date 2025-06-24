@@ -37,7 +37,8 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: 'home', link: '/' },
-      { text: 'system', link: '/system/' }
+      { text: 'system', link: '/system/' },
+      { text: 'usage', link: '/usage/' }
     ],
 
     sidebar: sidebar,
